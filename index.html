@@ -1,0 +1,348 @@
+<!--
+
+	app下载页面
+	开发者：小A
+
+	QQ:2253162533
+
+	使用请注明出处
+
+	当前界面为静态页面，请手动增修改相关代码。
+
+	需要增加应用的请自行复制页面
+
+-->
+
+<!DOCTYPE html>
+
+<html>
+
+
+
+<head>
+
+    <meta charset="utf-8"/>
+
+    <title>小A应用中心</title>
+
+    <meta name="viewport" content="width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0">
+
+    <style>
+
+        body {
+
+            margin: 0 auto;
+
+            background: #eee;
+
+            max-width: 800px;
+
+            min-width: 320px;
+
+            padding-bottom: 0.1px;
+
+        }
+
+
+
+        /*背景设置*/
+
+        .top {
+
+            background-image: url('http://pic1.win4000.com/wallpaper/a/59019ad5b37fc.jpg');
+
+            background-size: 100% 100%;
+
+            height: 180px;
+
+            width: 100%;
+
+
+
+        }
+
+
+
+        .my {
+
+            height: 50px;
+
+            width: 100%;
+
+            position: absolute;
+
+            top: 110px;
+
+            line-height: 50px;
+
+        }
+
+
+
+        .tx {
+
+            width: 48px;
+
+            height: 48px;
+
+            float: left;
+
+            border-radius: 50%;
+
+            margin-left: 15px;
+
+        }
+
+
+
+        span {
+
+            color: #fff;
+
+            font-size: 16px;
+
+            margin-left: 10px;
+
+        }
+
+
+
+        .qm {
+
+            background: #fff;
+
+            box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.2);
+
+            padding: 5px;
+
+            color: #616161;
+
+            font-size: 14px;
+
+            padding-left: 15px;
+
+
+
+        }
+
+
+
+        .card {
+
+            margin-top: 20px;
+
+            box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.2);
+
+            padding: 10px;
+
+            background: #fff;
+
+        }
+
+
+
+        .title {
+
+            font-size: 14px;
+
+            color: #03A9F4;
+
+        }
+
+
+
+        .appicon {
+
+            width: 50px;
+
+            height: 50px;
+
+            margin-left: 10px;
+
+            float: left;
+
+        }
+
+
+
+        .appshow {
+
+            margin-left: 10px;
+
+            display: inline-block;
+
+            padding-top: 3px;
+
+        }
+
+
+
+        .apptitle {
+
+            font-size: 16px;
+
+            color: #333;
+
+        }
+
+
+
+        .appxx {
+
+            color: #999;
+
+            font-size: 13px;
+
+            margin-left: 0px;
+
+        }
+
+
+
+        .applist {
+
+            height: 70px;
+
+            padding-bottom: 5px;
+
+            padding-top: 5px;
+
+            width: 100%;
+
+            box-shadow: inset 0px -1px rgba(0, 0, 0, 0.1);
+
+            margin-top: 10px;
+
+            cursor: pointer;
+
+        }
+
+
+
+    </style>
+
+</head>
+
+
+
+<body>
+
+<div class="top">
+
+    <div class="my">
+
+        <!--获取QQ头像-->
+
+        <img src="http://q1.qlogo.cn/g?b=qq&nk=2253162533&s=100" class="tx"/>
+
+        <span>小A</span>
+
+
+
+    </div>
+
+
+
+</div>
+
+<div class="qm">极致，共享不凡！</div>
+
+
+
+<div class="card">
+
+    <div class="title">我的应用</div>
+
+    <!--应用列表-->
+
+    <div>
+
+        <!--列表1-->
+
+        <div class="applist" onclick="window.location.href ='jc.php'">
+
+            <img src="img/icon_jc.png" class="appicon">
+
+            <div class="appshow">
+
+                <div class="apptitle">小A教程</div>
+
+                <span class="appxx">3.20MB 1000下载</span>
+
+            </div>
+
+        </div>
+
+        <!--列表1-->
+
+
+
+        <!--列表2-->
+
+        <div class="applist" onclick="window.location.href ='zmbz.php'">
+
+            <img src="img/icon_zmbz.png" class="appicon">
+
+            <div class="appshow">
+
+                <div class="apptitle">FAS桌面壁纸</div>
+
+                <span class="appxx">1.84MB 1000下载</span>
+
+            </div>
+
+        </div>
+
+        <!--列表2-->
+
+
+
+        <div class="applist" onclick="window.location.href ='jc.php'">
+
+            <img src="img/icon_jc.png" class="appicon">
+
+            <div class="appshow">
+
+                <div class="apptitle">小A教程</div>
+
+                <span class="appxx">3.20MB 1000下载</span>
+
+            </div>
+
+        </div>
+
+
+
+        <div class="applist" onclick="window.location.href ='zmbz.php'">
+
+            <img src="img/icon_zmbz.png" class="appicon">
+
+            <div class="appshow">
+
+                <div class="apptitle">FAS桌面壁纸</div>
+
+                <span class="appxx">1.84MB 1000下载</span>
+
+            </div>
+
+        </div>
+
+
+
+    </div>
+
+
+
+
+
+</div>
+
+<div align="center" style="margin-top: 20px;font-size: 14px;"><a href="http://fasv.xyz/">小A版权所有</a></div>
+
+
+
+</body>
+
+
+
+</html>
